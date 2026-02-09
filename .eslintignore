@@ -1,0 +1,14 @@
+node_modules
+dist
+build
+*.log
+.next
+out
+coverage
+public
+*.svg
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.ico
