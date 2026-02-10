@@ -40,7 +40,7 @@ export class CardFilms extends React.Component {
               <div className={`circleRated ${colorRated}`}>{film.rating}</div>
             )}
           </h5>
-          <span>{this.date(film.release_date)}</span>
+          <span className="dataRelease">{this.date(film.release_date)}</span>
           <GenresContext.Consumer>
             {({ genres }) => (
               <div className="genresFilm">
@@ -54,6 +54,7 @@ export class CardFilms extends React.Component {
               </div>
             )}
           </GenresContext.Consumer>
+
           <div>{this.trimText(film.overview)}</div>
           <div className="rate">
             <CustomRate movieId={film.id} rating={film.rating} />
