@@ -67,6 +67,9 @@ h5 {
   margin: 0;
   font-size: 20px;
   font-weight: 400;
+  @media (max-width: 430px) {
+    height: 28px;
+  }
 }
 
 .dataRelease {
@@ -126,6 +129,12 @@ h5 {
     min-width: 60px;
     height: 91px;
     object-fit: cover;
+  }
+}
+
+.filmOverview {
+  @media (max-width: 430px) {
+    margin-left: -55px;
   }
 }
 

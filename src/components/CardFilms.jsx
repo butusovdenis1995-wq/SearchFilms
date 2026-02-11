@@ -55,7 +55,7 @@ export class CardFilms extends React.Component {
             )}
           </GenresContext.Consumer>
 
-          <div>{this.trimText(film.overview)}</div>
+          <div className="filmOverview">{this.trimText(film.overview)}</div>
           <div className="rate">
             <CustomRate movieId={film.id} rating={film.rating} />
           </div>

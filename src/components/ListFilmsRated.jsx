@@ -43,6 +43,7 @@ export class ListFilmsRated extends React.Component {
   }
 
   render() {
+    console.log('ListFilmsRatedRender');
     const { films } = this.state;
     return (
       <>
